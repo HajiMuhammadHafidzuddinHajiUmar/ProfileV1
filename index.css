@@ -9,8 +9,7 @@ body {
 }
 
 /* .wrapper { */
-    /* background-color: aliceblue; */
-    /* min-height: 20000%; */
+
 /* } */
 
 /* ------------------------ */
@@ -22,7 +21,7 @@ body {
 }
 
 .nav-ul {
-    margin: 0;
+    margin: auto;
     list-style: none;
     text-align: center;
     padding: 0;
@@ -36,22 +35,40 @@ body {
 .nav-li-a {
     color: #FBEAEB;
     text-decoration: none;
+    font-weight: bold;
+
+    padding: 10% 20%;
+    border-radius: 5px;
+}
+
+.nav-li-a:hover {
+    background-color: #FBEAEB;
+    color: #2F3C7E;
 }
 
 /* ------------------------ */
 
 #welcome-section {
     background-image: url("images/coding_screen.jpg");
-    background-color: #FBEAEB;
+    
     min-height: 125px;
     color: rgb(255, 246, 162);
     text-align: center;
     padding: 337px 0;
 }
 
+.welcome-div {
+    background-color: #101820FF;
+    height: 100%;
+    width: 320px;
+    margin: auto;
+    padding: 2% 3%;
+    border: 4px solid #FEE715FF;
+    border-radius: 5px;
+}
+
 .greet {
     margin: 0 auto;
-    background-color: #101820FF;
     padding: 15px 7px;
     max-width: 400px;
 }
@@ -171,6 +188,8 @@ sup {
     padding: 1% 2%;
     border: none;
     border-radius: 5px;
+
+    cursor: pointer;
 }
 
 /* .clear {
@@ -186,5 +205,5 @@ sup {
     overflow: auto;
     font-size: x-small;
     text-align: right;
-    padding: 8% 5%;
+    padding: 2% 2%;
 }
